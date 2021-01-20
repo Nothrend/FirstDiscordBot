@@ -7,6 +7,7 @@ const prefix = '~';
 var botLogin = " ";
 
 // Get login for bot
+// If you have your own bot, make a text file with your login key in /src
 
 try {
     var file = fs.readFileSync('botLogin.txt');
